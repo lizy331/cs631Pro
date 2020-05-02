@@ -8,7 +8,7 @@ pymysql.install_as_MySQLdb()
 pymysql.connections.DEBUG = True
 
 # 打开数据库连接
-db = pymysql.connect(host = "localhost",user = "root", password = "Lizy52391?", db = "cs631Pro", port = 3306)
+db = pymysql.connect(host = "localhost",user = "root", password = "密码", db = "cs631Pro", port = 3306)
 
 # 使用cursor()方法获取操作游标
 cursor = db.cursor()
